@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style\style.css">
+</head>
+<body class="registration">
+    <div class="newRegistration">
+        <img src="image\Union.png" alt="union">
+    </div>
+    <div class="containerNR">
+        <form action="/submit.php" method="post">
+            <h1 class="headerNR">Create new account</h1>
+            <div>
+                <div class="NRname">
+                    <div>
+                    <label class="required" for="fName">First Name</label>
+                    <label class="required" for="lName">Last Name</label><br>
+                    <input type="text" name="fName" id="fName" required>
+                    <input type="text" name="lName" id="lName" required>   <br>
+                </div>
+                <div class="NRemail">
+                    <div>
+                        <label class="required" for="email">Email Address</label><br>
+                        <input type="email" name="email" id="email" required><br>
+                    </div>
+                    <div>
+                        <label class="required" for="pwd">Password</label><br>
+                        <input type="password" name="pwd" id="pwd" minlength="8" required><br>
+                    </div>
+                    <div> 
+                        <label class="required" for="renterpassword">Re-enter Password</label><br>
+                        <input type="password" name="renterpassword" id="renterpassword" minlength="8" required><br>
+                    </div>
+                    <div class="checkRemember">                                
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember</label><br>
+                    </div>
+                </div>
+                <div class="lastPart">
+                    <div>
+                        <button>Create account</button>
+                    </div>
+                    <div class="signUpWith">
+                        <span class="line"></span>
+                        <p>Or sign up with</p><br>
+                        <span class="line"></span>
+                    </div>
+                    <div>
+                        <img class="google" src="image\flat-color-icons_google.png" alt="google">     
+                        <img class="fb" src="image\logos_facebook.png" alt="fb"><br>
+                    </div>
+                    <div class="alreadyAMember">
+                        <p>Already a member?</p>
+                        <a href="#">Sign in</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

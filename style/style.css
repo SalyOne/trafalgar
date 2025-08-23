@@ -1,0 +1,271 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1600px;
+    height: 143px;
+    background-color:bisque 
+}
+.main-header .container{
+    display: flex;
+    justify-content: space-between;
+}
+.main-header .container img{
+    margin-top: 56px;
+    margin-left: 192px;
+    width: 182px;
+    height: 41px; 
+}
+.main-header .mainNavigation ul{
+    display: flex;
+    margin-top: 70px;
+    margin-right: 190px;
+    gap: 40px;
+    list-style-type: none;
+}
+.main-header .mainNavigation ul li a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s;  
+    font-family: "name", sans-serif;
+    font-weight: bold;
+}
+.main-header .mainNavigation ul li a:hover{
+    color:blue;
+}
+.info-section .container{
+    display: flex;
+    height: 598px;
+    justify-content: space-between;
+    background-color:antiquewhite;
+}
+.info-section .textSide{
+    padding-top: 55px;
+}
+.info-section .container .section-title{
+    margin-left: 192px;
+    font-size: 48px;
+    width: 426px;
+    height: 112px
+}
+.info-section .container p{
+    margin-left: 192px;
+    font-size: 21px;
+    width: 445px;
+    height: 96px;
+}
+.info-section .container button{
+    margin-left: 192px;
+    width: 200px;
+    height: 60px;
+    background-color: deepskyblue;
+    color: aliceblue;
+    border-radius: 55px;
+}
+.image-container{
+    margin-right: 192px;
+}
+
+
+.registration{
+    display: flex;
+}
+.containerNR{
+    margin-left: 209px;
+    margin-top: 119.63px;
+}
+.headerNR{
+    font-size: 32px;
+}
+.containerNR label{
+    font-size: 12px;
+    font-weight: bold;
+}
+.NRname{
+    padding-top: 66.62px;
+}
+.NRname input{
+    width: 222px;
+    height: 47px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    margin-right: 22px;
+}
+.required::after{
+    content: " *";
+    font-size: 18px;
+    color: red;
+}
+.NRname label[for="fName"]{
+    margin-right: 193px;
+}
+.NRemail div{
+    padding-top: 32px;
+}
+.NRemail input{
+    width: 472px;
+    height: 48px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+}
+.containerNR input[type="checkbox"]{
+    width:24px;
+    height: 24px;
+}
+.containerNR label[for="remember"]{
+    font-size: 16px;
+}
+.checkRemember {
+    display: flex;
+}
+.containerNR button{
+    color: white;
+    font-size: 19.68px;
+    font-weight: bold;
+    width: 407px;
+    height: 44.16px;
+    border-style:none;
+    background: #36AD33;
+    border-radius: 20.783px
+}
+.lastPart div{
+    margin-top: 32px;
+}
+.google{
+    margin-right: 10px;
+}
+.fb{
+    margin-left: 10px;
+}
+.lastPart img{
+    width: 41.57px;
+    height: 41.57px;
+}
+.containerNR .lastPart div{
+    display: flex;
+    justify-content: center;
+}
+.lastPart a{
+    color: green;
+    text-decoration: none;
+    transition: 0.2s;
+    padding-left: 5px;
+}
+.lastPart a:hover{
+    color:blue;
+}
+.signUpWith{
+    display: flex;
+    align-items: center;
+    font-size: 13.86px;
+    color: rgba(0, 0, 0, 0.44);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.signUpWith p {
+    padding: 0 15px;
+}
+.signUpWith .line{
+
+    width:60px;
+    height: 1px;
+    background-color: black;
+}
+.alreadyAMember{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.44);
+}
+
+
+
+.ourSevices .container{
+    width: 1600px;
+    height: 1133px;
+    background-color:bisque;
+    justify-contentpx: space-between;
+    
+}
+.ourSevices .textOurservices{
+    padding-top: 176px;
+}
+.ourSevices .container p{
+    color: #7D7897;
+    font-size: 16px;
+}
+.ourSevices .container .textOurservices p{
+    font-size: 18px;
+}
+.textOurservices h1{
+    text-align: center;
+}
+
+
+/* menius awyoba flex is gareshe */
+
+
+/* .main-header .mainNavigation ul{
+    list-style-type: none;
+} */
+/* .main-header .mainNavigation ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.main-header .mainNavigation ul li.lastItem{
+    margin-right: 0;
+} */
+
+
+
+/* 
+
+header nav{
+    display: inline-block;
+    margin-left: auto;
+    float: right;
+}
+ */
+
+
+
+
+/* header nav ul li{
+    display: inline-block;
+    margin-left: auto;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.5;
+    padding: 10px;
+        
+    transition: 1s;
+}
+header nav ul li a:hover{
+    opacity: 1;
+} */
+/* 
+.info-section .textSide{
+    display: inline-block;
+    width: 49%;
+vertical-align: middle;}
+
+.info-section .image-container{
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+.info-section .image-container img{
+    width: 100%;
+} */
+ 
+
+.edu-nsw-act-cursive {
+  font-family: "Edu NSW ACT Cursive", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  color: red;
+  font-style: normal;
+}
