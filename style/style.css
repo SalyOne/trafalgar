@@ -230,7 +230,9 @@
     font-size: 40px;
   }
 }
-
+.test{
+  color: red;
+}
 @media (max-width: 992px) {
   .wrapper {
     width: 90%;
